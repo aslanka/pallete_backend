@@ -38,7 +38,7 @@ app.post('/gemini', async (req, res) => {
 });
 
 // Define port and start server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4455;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
